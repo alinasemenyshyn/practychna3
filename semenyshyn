@@ -1,6 +1,6 @@
 a="#   #\n" 
 while 1==1: 
-    text = list(input("Напиши своє слово: ")) 
+    text = list(input("Введіть текст: ")) 
     for i in range(len(text)): 
           if text[i]== " ": 
             print(7*"\n") 
@@ -25,7 +25,7 @@ while 1==1:
           elif text[i]== "j" or text[i]=="J": 
             print(" ###\n"+5*"  #\n"+"##\n")   
           elif text[i]== "k" or text[i]=="K": 
-            print(a+"#  #\n# #\n##\n# #\n*  #\n"+a)
+            print(a+"#  #\n# #\n##\n# #\n#  #\n"+a)
           elif text[i]== "l" or text[i]=="L": 
             print(6*"#\n"+"#####")  
           elif text[i]== "m" or text[i]=="M": 
@@ -55,4 +55,5 @@ while 1==1:
           elif text[i]== "y" or text[i]=="Y": 
             print(2*a+" # #\n"+4*"  #\n")
           elif text[i]== "z" or text[i]=="Z": 
-            print("#####\n    #\n   #\n  #\n #\n#\n#####"
+            print("#####\n    #\n   #\n  #\n #\n#\n#####")
+             
