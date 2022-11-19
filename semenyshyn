@@ -1,0 +1,58 @@
+a="#   #\n" 
+while 1==1: 
+    text = list(input("Напиши своє слово: ")) 
+    for i in range(len(text)): 
+          if text[i]== " ": 
+            print(7*"\n") 
+          elif text[i]== "a" or text[i]=="A": 
+            print(" ###\n"+2*a+"#####\n"+3*a)
+          elif text[i]== "b" or text[i]=="B": 
+            print(2*("####\n"+2*a)+"####\n")
+          elif text[i]== "c" or text[i]=="C": 
+            print(" ###\n"+a+3*"#\n"+a+" ###\n") 
+          elif text[i]== "d" or text[i]=="D": 
+            print("####\n"+5*a+"####")
+          elif text[i]== "e" or text[i]=="E": 
+            print("#####\n#\n#\n###\n#\n#\n#####\n")
+          elif text[i]== "f" or text[i]=="F": 
+            print("#####\n#\n#\n###\n#\n#\n#\n")
+          elif text[i]== "g" or text[i]=="G": 
+            print(" ###\n"+a+"#\n#  ##\n"+2*a+" ###\n")
+          elif text[i]== "h" or text[i]=="H": 
+            print(3*a+"#####\n"+3*a)
+          elif text[i]== "i" or text[i]=="I": 
+            print(" ###\n"+5*"  #\n"+" ###\n")
+          elif text[i]== "j" or text[i]=="J": 
+            print(" ###\n"+5*"  #\n"+"##\n")   
+          elif text[i]== "k" or text[i]=="K": 
+            print(a+"#  #\n# #\n##\n# #\n*  #\n"+a)
+          elif text[i]== "l" or text[i]=="L": 
+            print(6*"#\n"+"#####")  
+          elif text[i]== "m" or text[i]=="M": 
+            print(2*a+"## ##\n# # #\n"+3*a)
+          elif text[i]== "n" or text[i]=="N": 
+            print(2*a+"##  #\n# # #\n*  ##\n"+2*a) 
+          elif text[i]== "o" or text[i]=="O": 
+            print(" ###\n"+5*a+" ###\n")
+          elif text[i]== "p" or text[i]=="P": 
+            print("####\n"+2*a+"####\n#\n#\n#\n")
+          elif text[i]== "q" or text[i]=="Q": 
+            print(" ###\n"+4*a+"#  #\n ## #\n")
+          elif text[i]== "r" or text[i]=="R": 
+            print("####\n"+2*a+"####\n# #\n#  #\n"+a)
+          elif text[i]== "s" or text[i]=="S": 
+            print(" ####\n#\n#\n ###\n"+2*"    #\n"+" ###\n")
+          elif text[i]== "t" or text[i]=="T": 
+            print("*****\n"+6*"  #\n")
+          elif text[i]== "u" or text[i]=="U": 
+            print(6*a+" ###\n") 
+          elif text[i]== "v" or text[i]=="V": 
+            print(5*a+" # #\n  #\n")
+          elif text[i]== "w" or text[i]=="W": 
+            print(3*a+"# # #\n## ##\n"+2*a)
+          elif text[i]== "x" or text[i]=="X": 
+            print(2*a+" # #\n  #\n # #\n"+2*a)
+          elif text[i]== "y" or text[i]=="Y": 
+            print(2*a+" # #\n"+4*"  #\n")
+          elif text[i]== "z" or text[i]=="Z": 
+            print("#####\n    #\n   #\n  #\n #\n#\n#####"
