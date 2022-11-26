@@ -4,56 +4,56 @@ while 1==1:
     for i in range(len(text)): 
           if text[i]== " ": 
             print(7*"\n") 
-          elif text[i]== "a" or text[i]=="A": 
+          if text[i].lower()=="a": 
             print(" ###\n"+2*a+"#####\n"+3*a)
-          elif text[i]== "b" or text[i]=="B": 
+          if text[i].lower()=="b": 
             print(2*("####\n"+2*a)+"####\n")
-          elif text[i]== "c" or text[i]=="C": 
+          if text[i].lower()=="c": 
             print(" ###\n"+a+3*"#\n"+a+" ###\n") 
-          elif text[i]== "d" or text[i]=="D": 
+          if text[i].lower()=="d": 
             print("####\n"+5*a+"####")
-          elif text[i]== "e" or text[i]=="E": 
+          if text[i].lower()=="e": 
             print("#####\n#\n#\n###\n#\n#\n#####\n")
-          elif text[i]== "f" or text[i]=="F": 
+          if text[i].lower()=="f": 
             print("#####\n#\n#\n###\n#\n#\n#\n")
-          elif text[i]== "g" or text[i]=="G": 
+          if text[i].lower()=="g": 
             print(" ###\n"+a+"#\n#  ##\n"+2*a+" ###\n")
-          elif text[i]== "h" or text[i]=="H": 
+          if text[i].lower()=="h": 
             print(3*a+"#####\n"+3*a)
-          elif text[i]== "i" or text[i]=="I": 
+          if text[i].lower()=="i": 
             print(" ###\n"+5*"  #\n"+" ###\n")
-          elif text[i]== "j" or text[i]=="J": 
+          if text[i].lower()=="j": 
             print(" ###\n"+5*"  #\n"+"##\n")   
-          elif text[i]== "k" or text[i]=="K": 
+          if text[i].lower()=="k": 
             print(a+"#  #\n# #\n##\n# #\n#  #\n"+a)
-          elif text[i]== "l" or text[i]=="L": 
+          if text[i].lower()=="l": 
             print(6*"#\n"+"#####")  
-          elif text[i]== "m" or text[i]=="M": 
+          if text[i].lower()=="m": 
             print(2*a+"## ##\n# # #\n"+3*a)
-          elif text[i]== "n" or text[i]=="N": 
+          if text[i].lower()=="n": 
             print(2*a+"##  #\n# # #\n*  ##\n"+2*a) 
-          elif text[i]== "o" or text[i]=="O": 
+          if text[i].lower()=="o": 
             print(" ###\n"+5*a+" ###\n")
-          elif text[i]== "p" or text[i]=="P": 
+          if text[i].lower()=="p": 
             print("####\n"+2*a+"####\n#\n#\n#\n")
-          elif text[i]== "q" or text[i]=="Q": 
+          if text[i].lower()=="q": 
             print(" ###\n"+4*a+"#  #\n ## #\n")
-          elif text[i]== "r" or text[i]=="R": 
+          if text[i].lower()=="r": 
             print("####\n"+2*a+"####\n# #\n#  #\n"+a)
-          elif text[i]== "s" or text[i]=="S": 
+          if text[i].lower()=="s": 
             print(" ####\n#\n#\n ###\n"+2*"    #\n"+" ###\n")
-          elif text[i]== "t" or text[i]=="T": 
+          if text[i].lower()=="t": 
             print("*****\n"+6*"  #\n")
-          elif text[i]== "u" or text[i]=="U": 
+          if text[i].lower()=="u": 
             print(6*a+" ###\n") 
-          elif text[i]== "v" or text[i]=="V": 
+          if text[i].lower()=="v": 
             print(5*a+" # #\n  #\n")
-          elif text[i]== "w" or text[i]=="W": 
+          if text[i].lower()=="w": 
             print(3*a+"# # #\n## ##\n"+2*a)
-          elif text[i]== "x" or text[i]=="X": 
+          if text[i].lower()=="x": 
             print(2*a+" # #\n  #\n # #\n"+2*a)
-          elif text[i]== "y" or text[i]=="Y": 
+          if text[i].lower()=="y": 
             print(2*a+" # #\n"+4*"  #\n")
-          elif text[i]== "z" or text[i]=="Z": 
+          if text[i].lower()=="z": 
             print("#####\n    #\n   #\n  #\n #\n#\n#####")
              
